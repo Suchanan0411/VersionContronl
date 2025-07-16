@@ -10,8 +10,8 @@
       <q-input
         filled
         v-model="name"
-        label="Your name *"
-        hint="Name and surname"
+        label="ชื่อ-สกุล: *"
+        hint="กรุณาใส่ข้อความที่ถูกต้อง"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type something']"
       />
@@ -31,8 +31,8 @@
       <q-toggle v-model="accept" label="I accept the license and terms" />
 
       <div>
-        <q-btn label="Submit" type="submit" color="primary"/>
-        <q-btn label="Reset" type="reset" color="primary" flat class="q-ml-sm" />
+        <q-btn label="ยีนยัน" type="submit" color="primary"/>
+        <q-btn label="เริ่มใหม่" type="reset" color="primary" flat class="q-ml-sm" />
       </div>
     </q-form>
 
