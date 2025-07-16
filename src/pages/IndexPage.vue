@@ -1,5 +1,5 @@
 <template>
-<<<<<<< HEAD
+
   <div class="q-pa-md" style="max-width: 400px">
 
     <q-form
@@ -20,10 +20,10 @@
         filled
         type="number"
         v-model="age"
-        label="Your age *"
+        label="อายุ *"
         lazy-rules
         :rules="[
-          val => val !== null && val !== '' || 'Please type your age',
+          val => val !== null && val !== '' || 'กรุณาใส่อายุที่ถูกต้อง',
           val => val > 0 && val < 100 || 'Please type a real age'
         ]"
       />
@@ -100,5 +100,5 @@ export default {
 
 <script setup>
 //
->>>>>>> origin/master
+origin/master
 </script>
